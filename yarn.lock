@@ -2439,6 +2439,11 @@
   dependencies:
     "webidl-conversions" "^5.0.0"
 
+"dotenv@^8.0.0":
+  "integrity" "sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw=="
+  "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-8.2.0.tgz"
+  "version" "8.2.0"
+
 "ecc-jsbn@~0.1.1":
   "integrity" "sha1-OoOpBOVDUyh4dMVkt1SThoSamMk="
   "resolved" "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz"
@@ -5776,6 +5781,13 @@
   "integrity" "sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA=="
   "resolved" "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz"
   "version" "17.0.1"
+
+"react-native-dotenv@^2.5.0":
+  "integrity" "sha512-9VXy8rzj+phx/PHzLLbDAK/L2KNkMRia2CmUeQx23LjoGtYWqTaGhAuihFz9aPBrbdo4n4ykKeDOdhEiqzpqSg=="
+  "resolved" "https://registry.npmjs.org/react-native-dotenv/-/react-native-dotenv-2.5.0.tgz"
+  "version" "2.5.0"
+  dependencies:
+    "dotenv" "^8.0.0"
 
 "react-native-google-places-autocomplete@^2.1.2":
   "integrity" "sha512-daCLjXu2n5iIwfBWrfexF+ssCjhCnAboZvv+SKnsB+86zKlEq7TD4ERLq+XoNtt/JW5jaoBSk0SxATNKTrMqAA=="

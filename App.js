@@ -24,6 +24,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import { SOME_KEY } from '@env';
+
 const App: () => React$Node = () => {
   return (
     <>
@@ -40,7 +42,7 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step A</Text>
+              <Text style={styles.sectionTitle}>Step {SOME_KEY}</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
                 screen and then come back to see your edits.
